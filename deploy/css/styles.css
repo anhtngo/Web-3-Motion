@@ -662,6 +662,13 @@ footer > div #social i:hover {
   background-position: center;
   background-size: cover;
 }
+#hero #imgquote {
+  display: grid;
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+}
 #hero > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
