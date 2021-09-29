@@ -1,0 +1,130 @@
+/* =============
+    Header
+============= */
+@import "../helpers/variables";
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  font-size: 1.25rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #555;
+
+  #logo-container {
+    width: 15%;
+
+    img {
+      display: block;
+      width: 50%;
+      margin: auto;
+      cursor: pointer;
+    }
+  }
+
+  #navbar {
+    width: 40%;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      list-style: none;
+
+      li a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      li a:hover {
+        color: #333;
+        font-style: bold;
+      }
+    }
+  }
+
+  #search {
+    width: 20%;
+    position: relative;
+    margin-left: 1rem;
+
+    input {
+      text-align: center;
+      width: 100%;
+      padding: 0.75rem;
+      border: 2px #555 solid;
+      border-radius: 2rem;
+    }
+
+    i {
+      color: #555;
+      position: absolute;
+      top: 30%;
+      left: 0.5rem;
+      z-index: 1;
+    }
+  }
+
+  #language {
+    width: 20%;
+
+    button {
+      display: block;
+      margin: 0 auto;
+      border: none;
+      background: #f4f4f4;
+      cursor: pointer;
+    }
+  }
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 0.75rem;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.75rem;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 0.75rem;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.75rem;
+}
+
+/* Small tablets */
+@media (max-width: $screen-md-min) {
+  header {
+    #logo-container {
+      img {
+        width: 100%;
+      }
+    }
+
+    #navbar {
+      display: none;
+    }
+
+    #search {
+      position: absolute;
+      right: 1.5rem;
+
+      input {
+        padding: 0.25rem;
+      }
+
+      input::placeholder {
+        color: #fff;
+      }
+    }
+  }
+
+  #language {
+    display: none;
+  }
+}

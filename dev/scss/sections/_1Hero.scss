@@ -1,0 +1,67 @@
+#hero{
+    padding-bottom: 47px;
+    
+        #img{
+            background-image: url("../img/1 hero/1-hero.jpg");
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+        }
+
+    >div{
+
+       display: grid;
+       grid-template-columns: 16px auto 16px;
+       grid-template-areas: ". content .";
+
+        ul{
+        padding-top: 54px;
+
+        grid-area: content;
+
+        @include md{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-areas: "h1 h2 h3";
+            gap: 60px;
+        }
+            li{
+                padding-top: 30px;
+                section{
+                    h2{
+                        text-align: center;
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+            #h1{
+               @include md{
+                   grid-area: h1;
+               }
+            }
+
+            #h2{
+                @include md{
+                    grid-area: h2;
+                }
+            }
+
+            #h3{
+                @include md{
+                    grid-area: h3;
+                }
+            }
+        }
+    }
+
+    #button{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    
+    
+}

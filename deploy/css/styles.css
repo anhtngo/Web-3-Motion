@@ -1,0 +1,1496 @@
+/* =============
+    Mixins
+============= */
+/* ---------------- Font Sizing ---------------- */
+html {
+  font-size: 100%;
+}
+
+/* ---------------- Media Queries ---------------- */
+/* =============
+    Variables
+============= */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* =============
+    Base
+============= */
+body ul li {
+  list-style: none;
+}
+
+/* =============
+    Typography
+============= */
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =============
+    Buttons
+============= */
+/* =============
+    Forms
+============= */
+[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+  box-shadow: none;
+}
+
+[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+  box-shadow: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+}
+
+/* =============
+    Navigation
+============= */
+/* =============
+    Header
+============= */
+/* =============
+    Variables
+============= */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  font-size: 1.25rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #555;
+}
+header #logo-container {
+  width: 15%;
+}
+header #logo-container img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  cursor: pointer;
+}
+header #navbar {
+  width: 40%;
+}
+header #navbar ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+}
+header #navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+header #navbar ul li a:hover {
+  color: #333;
+  font-style: bold;
+}
+header #search {
+  width: 20%;
+  position: relative;
+  margin-left: 1rem;
+}
+header #search input {
+  text-align: center;
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px #555 solid;
+  border-radius: 2rem;
+}
+header #search i {
+  color: #555;
+  position: absolute;
+  top: 30%;
+  left: 0.5rem;
+  z-index: 1;
+}
+header #language {
+  width: 20%;
+}
+header #language button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 0.75rem;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.75rem;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 0.75rem;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.75rem;
+}
+
+/* Small tablets */
+@media (max-width: 768px) {
+  header #logo-container img {
+    width: 100%;
+  }
+  header #navbar {
+    display: none;
+  }
+  header #search {
+    position: absolute;
+    right: 1.5rem;
+  }
+  header #search input {
+    padding: 0.25rem;
+  }
+  header #search input::placeholder {
+    color: #fff;
+  }
+
+  #language {
+    display: none;
+  }
+}
+/* =============
+    Footer
+============= */
+/* =============
+    Variables
+============= */
+footer {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+footer a {
+  color: #000;
+}
+footer > div {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+footer > div #logo {
+  grid-column: 1/span 2;
+  display: flex;
+  align-items: center;
+}
+footer > div #logo img {
+  display: block;
+  width: 175px;
+  cursor: pointer;
+}
+footer > div ul {
+  margin: 1rem 0;
+}
+footer > div li {
+  margin: 0.2rem 0;
+}
+footer > div #company {
+  grid-column: 5;
+  margin: 2rem 1rem;
+}
+footer > div #support {
+  margin: 2rem 1rem;
+}
+footer > div #terms-of-use {
+  margin: 2rem 1rem;
+}
+footer > div #terms-of-use ul {
+  margin: 2rem 0;
+}
+footer > div #social {
+  margin: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+footer > div #social i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px #082630 solid;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.75rem;
+}
+footer > div #social i:hover {
+  color: #3B778B;
+}
+
+@media (max-width: 768px) {
+  footer > div {
+    grid-template-columns: repeat(7, 1fr);
+  }
+  footer > div #logo {
+    justify-content: center;
+  }
+  footer > div #social {
+    grid-column: 3;
+    grid-row: 1;
+  }
+}
+/* Small tablets and large smartphones */
+@media (max-width: 576px) {
+  footer > div {
+    width: 100%;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "logo company" "terms-of-use support" "social support";
+    grid-gap: 1.75rem;
+    justify-content: space-between;
+  }
+  footer > div #logo {
+    grid-area: logo;
+  }
+  footer > div #logo img {
+    width: 150px;
+  }
+  footer > div #company {
+    grid-area: company;
+    margin: 0;
+    margin-top: 2rem;
+  }
+  footer > div #support {
+    grid-area: support;
+    margin: 0;
+  }
+  footer > div #terms-of-use {
+    grid-area: terms-of-use;
+    margin: 0;
+    padding-right: 30%;
+    text-align: right;
+  }
+  footer > div #terms-of-use ul {
+    margin: 0;
+  }
+  footer > div #social {
+    grid-area: social;
+    padding-left: 10%;
+    margin: 0;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  footer > div #social i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.5rem;
+  }
+}
+#hero {
+  padding-bottom: 47px;
+}
+#hero #img {
+  background-image: url("../img/1 hero/1-hero.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+#hero > div {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+#hero > div ul {
+  padding-top: 54px;
+  grid-area: content;
+}
+@media (min-width: 768px) {
+  #hero > div ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "h1 h2 h3";
+    gap: 60px;
+  }
+}
+#hero > div ul li {
+  padding-top: 30px;
+}
+#hero > div ul li section h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #hero > div ul #h1 {
+    grid-area: h1;
+  }
+}
+@media (min-width: 768px) {
+  #hero > div ul #h2 {
+    grid-area: h2;
+  }
+}
+@media (min-width: 768px) {
+  #hero > div ul #h3 {
+    grid-area: h3;
+  }
+}
+#hero #button {
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#quote {
+  background-color: #3B778B;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#theera {
+  padding-bottom: 47px;
+}
+@media (min-width: 768px) {
+  #theera {
+    display: grid;
+    grid-template-columns: auto 700px auto;
+    grid-template-areas: ". era .";
+    padding-top: 27px;
+  }
+}
+@media (min-width: 1024px) {
+  #theera {
+    grid-template-columns: auto 900px auto;
+  }
+}
+#theera img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #theera > div {
+    grid-area: era;
+    display: grid;
+    grid-template-areas: "era-content" "era-img";
+  }
+}
+#theera > div #era-content {
+  display: grid;
+  grid-template-columns: 32px auto 32px;
+  grid-template-areas: ". era-mobile .";
+}
+@media (min-width: 768px) {
+  #theera > div #era-content {
+    grid-template-columns: 0 auto 0;
+    grid-area: era-content;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+#theera > div #era-content > div {
+  grid-area: era-mobile;
+}
+#theera > div #era-content > div h1 {
+  padding: 8px 0;
+}
+@media (min-width: 768px) {
+  #theera > div #era-image ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "paul girl horse";
+    gap: 24px;
+    grid-area: era-img;
+    padding-top: 10px;
+  }
+}
+#theera > div #era-image ul li section aside h3 {
+  display: list-item;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+#theera > div #era-image ul li section section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". era-list .";
+}
+#theera > div #era-image ul li section section > div {
+  grid-area: era-list;
+}
+#theera > div #era-image ul li section section > div h4 {
+  margin: 0 5px;
+}
+#theera > div #era-image ul #paull {
+  padding-top: 10px;
+}
+#theera > div #era-image ul #paulll {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #theera > div #era-image ul #daughter {
+    grid-area: girl;
+  }
+}
+#theera > div #era-image ul #daughter section aside h3 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #theera > div #era-image ul #daughter section aside {
+    background-image: url("../img/Era/girl.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: 300px;
+    display: grid;
+  }
+  #theera > div #era-image ul #daughter section aside h3 {
+    display: list-item;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #theera > div #era-image ul #daughter section aside img {
+    display: none;
+  }
+}
+#theera > div #era-image ul #daughter section section {
+  background-color: #082630;
+}
+#theera > div #era-image ul #daughter section section > div {
+  display: none;
+}
+@media (min-width: 768px) {
+  #theera > div #era-image ul #daughter section section > div {
+    display: list-item;
+    color: white;
+  }
+}
+#theera > div #era-image ul #daughterr {
+  padding-top: 10px;
+}
+#theera > div #era-image ul #daughterrr {
+  margin-bottom: 10px;
+}
+#theera > div #era-image ul #paul {
+  display: none;
+}
+@media (min-width: 768px) {
+  #theera > div #era-image ul #paul {
+    display: list-item;
+    grid-area: paul;
+  }
+  #theera > div #era-image ul #paul section aside {
+    background-image: url("../img/Era/paul.jpg");
+    background-size: cover;
+    background-position: center -20px;
+    grid-template-rows: 300px;
+    display: grid;
+  }
+  #theera > div #era-image ul #paul section section {
+    background-color: #082630;
+  }
+  #theera > div #era-image ul #paul section section > div {
+    color: white;
+  }
+}
+#theera > div #era-image ul #horse {
+  display: none;
+}
+@media (min-width: 768px) {
+  #theera > div #era-image ul #horse {
+    display: list-item;
+    grid-area: horse;
+  }
+  #theera > div #era-image ul #horse section aside {
+    background-image: url("../img/Era/horse.jpg");
+    background-size: cover;
+    background-position: center top;
+    grid-template-rows: 300px;
+    display: grid;
+  }
+  #theera > div #era-image ul #horse section section {
+    background-color: #082630;
+  }
+  #theera > div #era-image ul #horse section section > div {
+    color: white;
+  }
+}
+#theera > div #era-image ul #horse #hoursee {
+  padding-top: 10px;
+}
+#theera > div #era-image ul #horse #hourseee {
+  margin-bottom: 10px;
+}
+
+#influenced {
+  padding-bottom: 47px;
+}
+#influenced img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #influenced {
+    background-image: url("../img/Influenced/bridge.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto 800px auto;
+    grid-template-areas: ". influenced .";
+  }
+}
+@media (min-width: 1024px) {
+  #influenced {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+@media (min-width: 1200px) {
+  #influenced {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#influenced > div {
+  display: grid;
+  grid-template-areas: "influeced-img" "h1" "influenced-info";
+}
+@media (min-width: 768px) {
+  #influenced > div {
+    grid-template-columns: auto 30%;
+    grid-template-areas: "h1 h1" "influenced-img influenced-info";
+    gap: 60px;
+    grid-area: influenced;
+  }
+}
+#influenced > div h1 {
+  padding: 8px 32px;
+  grid-area: h1;
+}
+#influenced > div #influenced-content {
+  display: grid;
+  grid-template-columns: 32px auto 32px;
+  grid-template-areas: ". influenced-info .";
+  padding-top: 19px;
+}
+@media (min-width: 768px) {
+  #influenced > div #influenced-content {
+    background-color: black;
+  }
+}
+#influenced > div #influenced-content > div {
+  grid-area: influenced-info;
+}
+#influenced > div #duncann {
+  padding-top: 10px;
+}
+#influenced > div #duncannn {
+  margin-bottom: 10px;
+}
+#influenced > div #leee {
+  padding-top: 10px;
+}
+#influenced > div #leeee {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #influenced > div #influenced-img ul {
+    grid-area: influenced-img;
+  }
+}
+@media (min-width: 1024px) {
+  #influenced > div #influenced-img ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "duncan lee";
+    gap: 60px;
+  }
+}
+#influenced > div #influenced-img ul li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". influence-list .";
+}
+#influenced > div #influenced-img ul li section > div {
+  grid-area: influence-list;
+}
+@media (min-width: 1024px) {
+  #influenced > div #influenced-img ul #duncan {
+    grid-area: duncan;
+  }
+}
+@media (min-width: 768px) {
+  #influenced > div #influenced-img ul #duncan aside {
+    background-image: url("../img/Influenced/duncan.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: 300px;
+    display: grid;
+  }
+  #influenced > div #influenced-img ul #duncan aside img {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  #influenced > div #influenced-img ul #duncan aside {
+    grid-template-rows: 400px;
+  }
+}
+@media (min-width: 768px) {
+  #influenced > div #influenced-img ul #duncan section {
+    background-color: black;
+  }
+}
+#influenced > div #influenced-img ul #duncan section > div {
+  display: none;
+}
+@media (min-width: 768px) {
+  #influenced > div #influenced-img ul #duncan section > div {
+    display: list-item;
+  }
+}
+#influenced > div #influenced-img ul #lee {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #influenced > div #influenced-img ul #lee {
+    display: list-item;
+    grid-area: lee;
+  }
+}
+@media (min-width: 1024px) {
+  #influenced > div #influenced-img ul #lee aside {
+    background-image: url("../img/Influenced/lee.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: 300px;
+    display: grid;
+  }
+}
+@media (min-width: 1200px) {
+  #influenced > div #influenced-img ul #lee aside {
+    grid-template-rows: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  #influenced > div #influenced-img ul #lee section {
+    background-color: black;
+  }
+}
+@media (min-width: 768px) {
+  #vangoghseries > div > div {
+    display: grid;
+    grid-template-columns: auto 800px auto;
+    grid-template-areas: ". h1 ." ". search-series .";
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  #vangoghseries > div > div {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+@media (min-width: 1024px) {
+  #vangoghseries > div > div {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#vangoghseries > div > div h1 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #vangoghseries > div > div h1 {
+    text-align: left;
+    grid-area: h1;
+  }
+}
+#vangoghseries > div > div #Series {
+  margin-top: 20px;
+}
+#vangoghseries > div > div #search-series {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #vangoghseries > div > div #search-series {
+    justify-content: flex-start;
+    grid-area: search-series;
+  }
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "Gatchet sunflowers bedroom";
+  }
+}
+@media (min-width: 1024px) {
+  #vangoghseries > div #series-img {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "water Gatchet sunflowers bedroom tree";
+  }
+}
+#vangoghseries > div #series-img li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". series-list .";
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img li section {
+    background-color: black;
+    color: white;
+  }
+}
+#vangoghseries > div #series-img li section > div {
+  grid-area: series-list;
+}
+#vangoghseries > div #series-img #sunflowers aside {
+  background-image: url("../img/Series/sunflower.jpg");
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 700px;
+}
+#vangoghseries > div #series-img #sunflowers aside i {
+  font-size: 3.125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #3B778B;
+}
+#vangoghseries > div #series-img #sunflowers aside i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img #sunflowers aside i {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img #sunflowers aside {
+    grid-template-rows: 350px;
+    margin-top: -30px;
+  }
+}
+@media (min-width: 1200px) {
+  #vangoghseries > div #series-img #sunflowers aside {
+    grid-template-rows: 500px;
+  }
+}
+#vangoghseries > div #series-img #sunflowers section {
+  background-color: black;
+  color: white;
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img #sunflowers {
+    grid-area: sunflowers;
+  }
+}
+#vangoghseries > div #series-img #bedroom {
+  display: none;
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img #bedroom {
+    display: list-item;
+    grid-area: bedroom;
+  }
+  #vangoghseries > div #series-img #bedroom aside {
+    background-image: url("../img/Series/bed.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 300px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #vangoghseries > div #series-img #bedroom aside {
+    grid-template-rows: 400px;
+  }
+}
+#vangoghseries > div #series-img #Gatchet {
+  display: none;
+}
+@media (min-width: 768px) {
+  #vangoghseries > div #series-img #Gatchet {
+    display: list-item;
+    grid-area: Gatchet;
+  }
+  #vangoghseries > div #series-img #Gatchet aside {
+    background-image: url("../img/Series/think.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 300px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #vangoghseries > div #series-img #Gatchet aside {
+    grid-template-rows: 400px;
+  }
+}
+#vangoghseries > div #series-img #tree {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #vangoghseries > div #series-img #tree {
+    display: list-item;
+    grid-area: tree;
+  }
+  #vangoghseries > div #series-img #tree aside {
+    background-image: url("../img/Series/tree.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 320px;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1200px) {
+  #vangoghseries > div #series-img #tree aside {
+    grid-template-rows: 400px;
+  }
+}
+#vangoghseries > div #series-img #water {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #vangoghseries > div #series-img #water {
+    display: list-item;
+    grid-area: water;
+  }
+  #vangoghseries > div #series-img #water aside {
+    background-image: url("../img/Series/water.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 320px;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1200px) {
+  #vangoghseries > div #series-img #water aside {
+    grid-template-rows: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  #iconicartworks > div > div {
+    display: grid;
+    grid-template-columns: auto 800px auto;
+    grid-template-areas: ". h1 .";
+  }
+}
+@media (min-width: 1024px) {
+  #iconicartworks > div > div {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+@media (min-width: 1024px) {
+  #iconicartworks > div > div {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#iconicartworks > div > div h1 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div > div h1 {
+    text-align: left;
+    grid-area: h1;
+  }
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul {
+    display: grid;
+    grid-template-columns: 35% 45% 20%;
+    grid-template-areas: "sunflower2 sky gogh" "sunflower2 sky gogh" "sunflower2 sky people" "sunflower2 move people" "sunflower2 move flower" "sunflower2 move flower";
+    gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #iconicartworks > div ul {
+    grid-template-columns: 25% 30% 15% 30%;
+    grid-template-areas: "sunflower2 sky gogh riverside" "sunflower2 sky gogh riverside" "sunflower2 sky people riverside" "sunflower2 move people cafe" "sunflower2 move flower cafe" "sunflower2 move flower cafe";
+  }
+}
+#iconicartworks > div ul li section {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". iconic-list .";
+}
+#iconicartworks > div ul li section > div {
+  grid-area: iconic-list;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #sunflower2 {
+    grid-area: sunflower2;
+  }
+}
+#iconicartworks > div ul #sunflower2 aside {
+  background-image: url("../img/Iconic/sunflower2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 750px;
+}
+#iconicartworks > div ul #sunflower2 aside i {
+  font-size: 3.125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #3B778B;
+}
+#iconicartworks > div ul #sunflower2 aside i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #sunflower2 aside i {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #sunflower2 aside {
+    grid-template-rows: 797px;
+  }
+}
+#iconicartworks > div ul #sunflower2 section {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  margin-top: -70px;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #sunflower2 section {
+    margin-top: -87px;
+  }
+}
+@media (min-width: 1200px) {
+  #iconicartworks > div ul #sunflower2 section {
+    margin-top: -70px;
+  }
+}
+#iconicartworks > div ul #sky {
+  display: none;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #sky {
+    display: list-item;
+    grid-area: sky;
+  }
+  #iconicartworks > div ul #sky aside {
+    background-image: url("../img/Iconic/sky.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 390px;
+  }
+  #iconicartworks > div ul #sky section {
+    margin-top: -15px;
+  }
+}
+#iconicartworks > div ul #move {
+  display: none;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #move {
+    display: list-item;
+    grid-area: move;
+  }
+  #iconicartworks > div ul #move aside {
+    background-image: url("../img/Iconic/move.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 390px;
+  }
+  #iconicartworks > div ul #move section {
+    margin-top: -15px;
+  }
+}
+#iconicartworks > div ul #gogh {
+  display: none;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #gogh {
+    display: list-item;
+    grid-area: gogh;
+  }
+  #iconicartworks > div ul #gogh aside {
+    background-image: url("../img/Iconic/gogh.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 250px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #iconicartworks > div ul #gogh aside {
+    grid-template-rows: 255px;
+  }
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #gogh section {
+    margin-top: -15px;
+  }
+}
+#iconicartworks > div ul #people {
+  display: none;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #people {
+    display: list-item;
+    grid-area: people;
+  }
+  #iconicartworks > div ul #people aside {
+    background-image: url("../img/Iconic/people.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 250px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #iconicartworks > div ul #people aside {
+    grid-template-rows: 255px;
+  }
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #people section {
+    margin-top: -15px;
+  }
+}
+#iconicartworks > div ul #flower {
+  display: none;
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #flower {
+    display: list-item;
+    grid-area: flower;
+  }
+  #iconicartworks > div ul #flower aside {
+    background-image: url("../img/Iconic/flower.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 250px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #iconicartworks > div ul #flower aside {
+    grid-template-rows: 255px;
+  }
+}
+@media (min-width: 768px) {
+  #iconicartworks > div ul #flower section {
+    margin-top: -15px;
+  }
+}
+#iconicartworks > div ul #riverside {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #iconicartworks > div ul #riverside {
+    display: list-item;
+    grid-area: riverside;
+  }
+  #iconicartworks > div ul #riverside aside {
+    background-image: url("../img/Iconic/riverside.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 390px;
+  }
+  #iconicartworks > div ul #riverside section {
+    margin-top: -15px;
+  }
+}
+#iconicartworks > div ul #cafe {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #iconicartworks > div ul #cafe {
+    display: list-item;
+    grid-area: cafe;
+  }
+  #iconicartworks > div ul #cafe aside {
+    background-image: url("../img/Iconic/cafe.jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 390px;
+  }
+  #iconicartworks > div ul #cafe section {
+    margin-top: -15px;
+  }
+}
