@@ -4,23 +4,11 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "693BB06C-BD3A-45C9-9828-8409AF747E86"
+      "uuidString" : "8BC43299-527C-4C67-882B-DD99F41B2BE6"
     }
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/deploy\/css\/styles-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -33,396 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/1 hero\/1-hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 936624,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/1 hero\/1-hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/1 hero\/hero quote.jpg" : {
-      "ft" : 16384,
-      "iS" : 72421,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/1 hero\/hero quote.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 1.jpg" : {
-      "ft" : 16384,
-      "iS" : 115739,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 2.jpg" : {
-      "ft" : 16384,
-      "iS" : 40057,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 3.jpg" : {
-      "ft" : 16384,
-      "iS" : 202324,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 4.jpg" : {
-      "ft" : 16384,
-      "iS" : 430807,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 5.jpeg" : {
-      "ft" : 16384,
-      "iS" : 136759,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 6.jpg" : {
-      "ft" : 16384,
-      "iS" : 74807,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 6.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 7.jpg" : {
-      "ft" : 16384,
-      "iS" : 1172454,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/5 Iconic Artwork\/Iconic 8.jpeg" : {
-      "ft" : 16384,
-      "iS" : 989345,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/5 Iconic Artwork\/Iconic 8.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Era\/girl.jpg" : {
-      "ft" : 16384,
-      "iS" : 130426,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Era\/girl.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Era\/horse.jpg" : {
-      "ft" : 16384,
-      "iS" : 87594,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Era\/horse.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Era\/paul.jpg" : {
-      "ft" : 16384,
-      "iS" : 103346,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Era\/paul.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/footer\/logo.jpg" : {
-      "ft" : 16384,
-      "iS" : 71767,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/footer\/logo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/cafe.jpg" : {
-      "ft" : 16384,
-      "iS" : 189643,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/cafe.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/flower.jpg" : {
-      "ft" : 16384,
-      "iS" : 90998,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/flower.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/gogh.jpg" : {
-      "ft" : 16384,
-      "iS" : 76286,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/gogh.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/move.jpg" : {
-      "ft" : 16384,
-      "iS" : 155860,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/move.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/people.jpg" : {
-      "ft" : 16384,
-      "iS" : 91876,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/people.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/riverside.jpg" : {
-      "ft" : 16384,
-      "iS" : 178174,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/riverside.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/sky.jpg" : {
-      "ft" : 16384,
-      "iS" : 124704,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/sky.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Iconic\/sunflower2.jpg" : {
-      "ft" : 16384,
-      "iS" : 247233,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Iconic\/sunflower2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Influenced\/bridge.jpg" : {
-      "ft" : 16384,
-      "iS" : 908221,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Influenced\/bridge.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Influenced\/duncan.jpg" : {
-      "ft" : 16384,
-      "iS" : 179258,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Influenced\/duncan.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Influenced\/lee.jpg" : {
-      "ft" : 16384,
-      "iS" : 176591,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Influenced\/lee.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Series\/bed.jpg" : {
-      "ft" : 16384,
-      "iS" : 106477,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Series\/bed.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Series\/sunflower.jpg" : {
-      "ft" : 16384,
-      "iS" : 107511,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Series\/sunflower.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Series\/think.jpg" : {
-      "ft" : 16384,
-      "iS" : 142644,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Series\/think.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Series\/tree.jpg" : {
-      "ft" : 16384,
-      "iS" : 121574,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Series\/tree.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Series\/water.jpg" : {
-      "ft" : 16384,
-      "iS" : 161092,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Series\/water.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -431,29 +29,16 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/design\/Andrew Ngo's WEB 1 FINAL.sketch" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/design\/Andrew Ngo's WEB 1 FINAL.sketch",
-      "oF" : 0
-    },
-    "\/dev\/content\/1Hero.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/1Hero.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -461,14 +46,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
@@ -485,16 +62,16 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 3
+      "oF" : 2
     },
-    "\/dev\/js\/script.js" : {
+    "\/dev\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/script-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -582,14 +159,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/workspace.code-workspace" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/components\/workspace.code-workspace",
-      "oF" : 0
-    },
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -646,20 +215,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_1Hero.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_1Hero.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -703,25 +258,6 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
-    },
-    "\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
     }
   },
   "hooks" : [
@@ -731,10 +267,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 642009519.15315497,
-    "displayValue" : "Web 3 Motion",
-    "displayValueWasSetByUser" : 1,
-    "iconImageName" : "brackets-azure",
+    "creationDate" : 654009680.036273,
+    "displayValue" : "Motion-F21-AM-main",
+    "displayValueWasSetByUser" : 0,
+    "iconImageName" : "brackets-pale",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -1598,7 +1134,7 @@
       },
       "no-implicit-coercion" : {
         "active" : 0,
-        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'disallowTemplateShorthand': false, 'allow': []}"
       },
       "no-implicit-globals" : {
         "active" : 0
@@ -1648,7 +1184,7 @@
         "active" : 0
       },
       "no-loss-of-precision" : {
-        "active" : 0
+        "active" : 1
       },
       "no-magic-numbers" : {
         "active" : 0,
@@ -1708,7 +1244,7 @@
         "active" : 0
       },
       "no-nonoctal-decimal-escape" : {
-        "active" : 0
+        "active" : 1
       },
       "no-obj-calls" : {
         "active" : 1
@@ -1871,7 +1407,7 @@
         "optionString" : "{'enforceForOrderingRelations': false}"
       },
       "no-unsafe-optional-chaining" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'disallowArithmeticOperators': false}"
       },
       "no-unused-expressions" : {
@@ -1890,7 +1426,7 @@
         "optionString" : "{'functions': true, 'classes': true, 'variables': true}"
       },
       "no-useless-backreference" : {
-        "active" : 0
+        "active" : 1
       },
       "no-useless-call" : {
         "active" : 0
