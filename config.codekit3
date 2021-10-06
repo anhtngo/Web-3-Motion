@@ -431,6 +431,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/design\/Andrew Ngo's WEB 1 FINAL.sketch" : {
       "cB" : 0,
       "ft" : 8192,
@@ -487,14 +498,14 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
-    "\/dev\/js\/script.js" : {
-      "bF" : 0,
+    "\/dev\/js\/scripts.js" : {
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/script-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -688,6 +699,39 @@
       "oAP" : "\/node_modules",
       "oF" : 0
     },
+    "\/node_modules\/gsap\/CSSPlugin.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/node_modules\/gsap\/CSSPlugin.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/gsap-core.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/node_modules\/gsap\/gsap-core.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/index.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/node_modules\/gsap\/index.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -703,6 +747,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -1492,7 +1544,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
@@ -2573,11 +2625,11 @@
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*-min.js",
-      "autoOutputPathRelativePath" : "\/min",
+      "autoOutputPathRelativePath" : "..\/..\/deploy\/js",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 0,
-      "bundleFormat" : 0,
+      "autoOutputPathStyle" : 2,
+      "bundleFormat" : 4,
       "minifierStyle" : 1,
       "sourceMapStyle" : 0,
       "syntaxCheckerStyle" : 3,
