@@ -458,6 +458,14 @@
       "oAP" : "\/dev\/content\/1Hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/preloader.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/preloader.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -671,6 +679,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_preloader.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_preloader.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -717,17 +739,6 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/node_modules\/gsap\/gsap-core.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/gsap\/index.js" : {
-      "bF" : 4,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/node_modules\/gsap\/index.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
