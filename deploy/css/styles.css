@@ -715,6 +715,7 @@ footer > div #social i:hover {
   margin-top: 30px;
 }
 
+/* Position and the size of the whole loading screen */
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -724,6 +725,7 @@ footer > div #social i:hover {
   z-index: 1000;
 }
 
+/* Displaying the position, size of the loader(circle loader) */
 #loader {
   display: block;
   position: relative;
@@ -735,45 +737,52 @@ footer > div #social i:hover {
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #3498db;
-  -webkit-animation: spin 2s linear infinite;
+  z-index: 1001;
+  /* Spining animation */
+  -webkit-animation: spin linear 2s infinite;
   /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 2s linear infinite;
   /* Chrome, Firefox 16+, IE 10+, Opera */
-  z-index: 1001;
 }
 
+/* Inserting the second color in the loader */
 #loader:before {
   content: "";
   position: absolute;
+  /* By setting absolute, this allows the position of the content inside the loader to change its position based on the position of the main loader */
   top: 5px;
   left: 5px;
   right: 5px;
   bottom: 5px;
   border-radius: 50%;
-  border: 3px solid transparent;
+  border: 3px transparent solid;
   border-top-color: #e74c3c;
-  -webkit-animation: spin 3s linear infinite;
+  /* Spining animation */
+  -webkit-animation: spin linear 3s infinite;
   /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 3s linear infinite;
+  animation: spin linear 3s infinite;
   /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 
 #loader:after {
   content: "";
   position: absolute;
+  /* By setting absolute, this allows the position of the content inside the loader to change its position based on the position of the main loader */
   top: 15px;
   left: 15px;
   right: 15px;
   bottom: 15px;
   border-radius: 50%;
-  border: 3px solid transparent;
+  border: 3px transparent solid;
   border-top-color: #f9c922;
-  -webkit-animation: spin 1.5s linear infinite;
+  /* Spining animation */
+  -webkit-animation: spin linear 1.5s infinite;
   /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 1.5s linear infinite;
+  animation: spin linear 1.5s infinite;
   /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 
+/* Animation */
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -783,6 +792,7 @@ footer > div #social i:hover {
     transform: rotate(0deg);
     /* Firefox 16+, IE 10+, Opera */
   }
+  /* 50%  { opacity: 0.5; } */
   100% {
     -webkit-transform: rotate(360deg);
     /* Chrome, Opera 15+, Safari 3.1+ */
@@ -801,6 +811,7 @@ footer > div #social i:hover {
     transform: rotate(0deg);
     /* Firefox 16+, IE 10+, Opera */
   }
+  /* 50%  { opacity: 0.5; } */
   100% {
     -webkit-transform: rotate(360deg);
     /* Chrome, Opera 15+, Safari 3.1+ */
@@ -810,19 +821,14 @@ footer > div #social i:hover {
     /* Firefox 16+, IE 10+, Opera */
   }
 }
+/* The loading page */
 #loader-wrapper .loader-section {
   position: fixed;
   top: 0;
   width: 51%;
   height: 100%;
-  background: #222222;
+  background: #222;
   z-index: 1000;
-  -webkit-transform: translateX(0);
-  /* Chrome, Opera 15+, Safari 3.1+ */
-  -ms-transform: translateX(0);
-  /* IE 9 */
-  transform: translateX(0);
-  /* Firefox 16+, IE 10+, Opera */
 }
 
 #loader-wrapper .loader-section.section-left {
@@ -833,7 +839,8 @@ footer > div #social i:hover {
   right: 0;
 }
 
-/* Loaded */
+/* Loaded Styles, Animation after loaded  */
+/* Move the section to the left side of the browser */
 .loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
@@ -841,8 +848,11 @@ footer > div #social i:hover {
   /* IE 9 */
   transform: translateX(-100%);
   /* Firefox 16+, IE 10+, Opera */
+  /* Sliding Transition (two 0.3s, 1 is the duration of the animation and the other one is the delay) */
   -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
 .loaded #loader-wrapper .loader-section.section-right {
@@ -852,16 +862,24 @@ footer > div #social i:hover {
   /* IE 9 */
   transform: translateX(100%);
   /* Firefox 16+, IE 10+, Opera */
+  /* Sliding Transition (two 0.3s, 1 is the duration of the animation and the other one is the delay)*/
   -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
+/* Change the opacity of the loader to 0 after the it is loaded */
 .loaded #loader {
   opacity: 0;
+  /* Sliding Transition */
   -webkit-transition: all 0.3s ease-out;
+  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
   transition: all 0.3s ease-out;
+  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
+/* Hide the Loader Wrapper so that the content is visible */
 .loaded #loader-wrapper {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
@@ -871,16 +889,9 @@ footer > div #social i:hover {
   transform: translateY(-100%);
   /* Firefox 16+, IE 10+, Opera */
   -webkit-transition: all 0.3s 1s ease-out;
+  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
   transition: all 0.3s 1s ease-out;
-}
-
-/* JavaScript Turned Off */
-.no-js #loader-wrapper {
-  display: none;
-}
-
-.no-js h1 {
-  color: #222222;
+  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
 #content {
@@ -888,4 +899,67 @@ footer > div #social i:hover {
   padding-bottom: 50px;
   width: 80%;
   max-width: 978px;
+}
+
+/* Process Pie */
+.small_wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -78px 0 0 -45px;
+}
+
+.leftHalf, .rightHalf, .spinner {
+  left: 50%;
+  top: 30%;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.leftHalf {
+  left: 0;
+  background: #222;
+  z-index: 1003;
+  opacity: 1;
+  -webkit-animation: showHide 3s infinite steps(1, end);
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+}
+
+.rightHalf {
+  right: 0;
+  background: #ff8330;
+  z-index: 1001;
+  opacity: 0;
+  -webkit-animation: showHide 3s infinite steps(1, end) reverse;
+  border-radius: 0 100% 100% 0/0 50% 50% 0;
+}
+
+.spinner {
+  overflow: hidden;
+  left: 0;
+  background: #ff8330;
+  -webkit-animation: spin 3s linear infinite;
+  -webkit-transform-origin: center right;
+  z-index: 1002;
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+}
+
+@-webkit-keyframes showHide {
+  0% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+.loaded .small_wrapper {
+  opacity: 0;
+  /* Sliding Transition */
+  -webkit-transition: all 0.1s ease-out;
+  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 0.1s ease-out;
+  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+ */
 }
