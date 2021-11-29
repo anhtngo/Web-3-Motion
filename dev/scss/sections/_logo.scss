@@ -3,6 +3,9 @@
    grid-template-columns: auto 90vw auto;
    grid-template-areas: ". logo .";
    height: 100vh;
+   .bird{
+       visibility: hidden;
+  } 
 
 
    @include md{

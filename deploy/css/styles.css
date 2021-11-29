@@ -416,6 +416,9 @@ textarea {
   grid-template-areas: ". logo .";
   height: 100vh;
 }
+#logo .bird {
+  visibility: hidden;
+}
 @media (min-width: 768px) {
   #logo {
     grid-template-columns: auto 85vw auto;
